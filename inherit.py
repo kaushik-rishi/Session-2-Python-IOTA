@@ -8,11 +8,11 @@ help() => method resolution order
 - data and other attributes inherited from employee
 
 
-- Instead of repeating the code what we are going to do is let out employee method handle the fistname, lastname and pay
+- Instead of repeating the code what we are going to do is let out mammal method handle attrs
 
 # calling parents init method
-super().__init__(first, last, pay)
-Employee.__init__(self, first, last, pay) 
+super().__init__(name)
+Employee.__init__(self, name) 
 """
  
 class Mammal:
